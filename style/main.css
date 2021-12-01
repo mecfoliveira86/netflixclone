@@ -64,8 +64,8 @@ header nav a:hover{
     margin-bottom: 5vh;
 }
 
-.botoes{
-    display: block;
+.descricao{
+    width: 70%;
 }
 
 .botao{
@@ -104,5 +104,9 @@ header nav a:hover{
     height: 100%;
     width: 100%;
     display: block;
-    
+
+}
+
+.carrossel-filmes{
+    margin-top: 2.5vh;
 }
