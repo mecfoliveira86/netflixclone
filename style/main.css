@@ -15,17 +15,36 @@ body{
     color:white;
 }
 
-.logo{
-    color:var(--vermelho);
-    font-family: 'Arial Black';
-    font-size: 40px;
+.container{
+    margin-left: 2.5vw;
+    width: 95%;
 }
 
-.containerMenu{
-    margin-left: 10px;
+header .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.logo{
+    color:var(--vermelho);
+    font-family: 'Arial Black';
+    font-size: 2,5rem;
+}
+
+.filme-principal{
+    font-size: 1rem;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1) ), url('/imgs/capaMentalista.jpg');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .container{
+    width: 70%;
 }
 
 header nav a{
@@ -38,23 +57,15 @@ header nav a:hover{
     color:#fff;
 }
 
-.filme-principal{
-    font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1) ), url('/imgs/capaMentalista.jpg');
-    height: 400px;
-    background-size: cover;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-
 .titulo{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
     text-transform: uppercase;
     margin-bottom: 5vh;
+}
+
+.botoes{
+    display: block;
 }
 
 .botao{
