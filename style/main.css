@@ -12,6 +12,7 @@
 body{
     background: var(--preto);
     font-family: 'Times New Roman', Times, serif;
+    color:white;
 }
 
 .logo{
@@ -20,7 +21,7 @@ body{
     font-size: 40px;
 }
 
-.container{
+.containerMenu{
     margin-left: 10px;
     display: flex;
     align-items: center;
@@ -35,4 +36,40 @@ header nav a{
 
 header nav a:hover{
     color:#fff;
+}
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1) ), url('/imgs/capaMentalista.jpg');
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.titulo{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 5vh;
+}
+
+.botao{
+    margin-top: 5vh;
+    background-color:white;
+    color: var(--preto);
+    height: 5vh;
+    width: 10vw;
+    font-weight: 600;
+}
+.botao:nth-child(1){
+    background-color:var(--vermelho);
+    color: white;
+}
+
+.botao:nth-child(1):hover{
+    background-color:white;
+    color: var(--vermelho);
 }
