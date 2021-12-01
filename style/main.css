@@ -35,7 +35,7 @@ header .container{
 .filme-principal{
     font-size: 1rem;
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1) ), url('/imgs/capaMentalista.jpg');
-    height: 400px;
+    height: 600px;
     background-size: cover;
     display: flex;
     flex-direction: column;
