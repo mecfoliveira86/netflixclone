@@ -51,6 +51,7 @@ header nav a:hover{
 }
 
 .titulo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
     text-transform: uppercase;
     margin-bottom: 5vh;
@@ -60,10 +61,19 @@ header nav a:hover{
     margin-top: 5vh;
     background-color:white;
     color: var(--preto);
-    height: 5vh;
-    width: 10vw;
+    padding: 2vh 2vw;
     font-weight: 600;
+    border:none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s ease all;
 }
+
+.botao i{
+    margin-right: 8px;
+    font-size: 16px;
+}
+
 .botao:nth-child(1){
     background-color:var(--vermelho);
     color: white;
@@ -72,4 +82,9 @@ header nav a:hover{
 .botao:nth-child(1):hover{
     background-color:white;
     color: var(--vermelho);
+}
+
+.botao:nth-child(2):hover{
+    background-color:var(--preto);
+    color: white;
 }
