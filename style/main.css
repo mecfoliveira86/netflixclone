@@ -99,3 +99,10 @@ header nav a:hover{
     background-color:var(--preto);
     color: white;
 }
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    
+}
